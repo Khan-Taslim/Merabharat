@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.allpage{
+    height: 700px;
+    width: 1530px;
+    background-image: url(Images/120-SQ685262.jpg);
+    background-size: 100% 100%;
+}
+.header{
+    height: 100px;
+    width: 1530px;
+}
+.logo{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    color: whitesmoke;
+    float: left;
+
+}
+.menu{
+height: 100px;
+width: 1130px;
+float: left;
+}
+.menu ul li{
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 500px;
+    font-size: 20px;
+    margin: 30px;
+    
+
+}
+.menu ul li a{
+    color: beige;
+    text-decoration: none;
+}
+
+.content{
+height: 600px ;
+width: 1530px;
+}
+.content h1{
+    color: antiquewhite;
+    position: relative;
+    left: 650px;
+    top: 150px;
+}
+.content h3{
+    color: antiquewhite;
+    position: relative;
+    left: 700px;
+    top: 140px;
+    font-size: 30px;
+}
+.content p{
+    color: antiquewhite;
+    position: relative;
+    left: 700px;
+    top: 160px;
+    font-size: 20px;
+}
+.content ul li{
+    display: inline;
+    position: relative;
+    left: 640px;
+    top: 190px;
+    font-size: 30px;
+    margin: 10px;
+}
+.content ul li a{
+    text-decoration: none;
+}
+#L{
+    background-color:#e4e1e1a1;;
+    color: black;
+}
+#S{
+    background-color:#dbe1e6;
+    color: black;
+}
+#L:hover{
+    background-color: burlywood;
+}
+#S:hover{
+    background-color:bisque;
+}
+.changetext::after{
+    content:'';
+    animation: changekhan 15s infinite linear;
+    color: aqua;
+
+}
+@keyframes changekhan{
+    10%{content: "maharashtra";}
+    20%{content: "Karnataka";}
+    30%{content: "goa";}
+}

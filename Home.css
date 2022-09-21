@@ -1,0 +1,41 @@
+.from
+{
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: 550px;
+    background-image: url(/Images/20-SM674690.jpg);
+    background-size: 100% 100%;
+}
+#a{
+position: relative;
+left: 150px;
+}
+input{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    width: 200px;
+}
+button{
+    position: relative;
+    left:160px ;
+    bottom: 30px;
+    width:60px;
+    background-color: aqua;
+}
+.b{
+    display: inline;
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+    color: antiquewhite;
+}
+.c{
+    position: relative;
+    bottom: 42px;
+    left: 110px;
+    color: white;
+}
